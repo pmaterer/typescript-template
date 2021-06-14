@@ -1,3 +1,7 @@
 import './styles/main.css';
 
+export function ping(): string {
+    return 'pong';
+}
+
 console.log('This place is not a place of honor…no highly esteemed deed is commemorated here… nothing valued is here.');

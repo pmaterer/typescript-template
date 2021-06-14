@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "@types/webpack": "^5.28.0",
     "@types/webpack-dev-server": "^3.11.4",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
@@ -17,8 +18,10 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "html-webpack-plugin": "^5.3.1",
+    "jest": "^27.0.4",
     "prettier": "^2.3.1",
     "style-loader": "^2.0.0",
+    "ts-jest": "^27.0.3",
     "ts-loader": "^9.2.3",
     "ts-node": "^10.0.0",
     "tslib": "^2.3.0",
@@ -29,6 +32,8 @@
   },
   "scripts": {
     "start": "webpack s",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --fix"
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --fix",
+    "test": "jest",
+    "test:watch": "jest --watch"
   }
 }
