@@ -1,0 +1,10 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "A template for Typescript projects.",
+  "main": "index.js",
+  "repository": "https://github.com/pmaterer/typescript-template",
+  "author": "Patrick Materer <patrickmaterer@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
