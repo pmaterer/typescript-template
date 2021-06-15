@@ -8,8 +8,10 @@
     "removeComments": true,
     "strict": true,
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["jest", "node"],
+    "outDir": "./dist"
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules/"],
   "include": ["src/**/*.ts"]
 }
