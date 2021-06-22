@@ -12,6 +12,6 @@
     "types": ["jest", "node"],
     "outDir": "./dist"
   },
-  "exclude": ["node_modules/"],
+  "exclude": ["node_modules"],
   "include": ["src/**/*.ts"]
 }

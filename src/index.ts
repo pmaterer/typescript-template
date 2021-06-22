@@ -1,4 +1,4 @@
-import './styles/main.css';
+import './styles/main.scss';
 
 export function ping(): string {
     return 'pong';
